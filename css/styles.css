@@ -105,11 +105,11 @@ body {
   transition-delay: 0.4s;
 }
 
-/*
 .table-wrapper {
   overflow-x: auto;
 }
 
+/*
 .table {
   min-width: 480px;
 }
