@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,98 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-top: -80px !important;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.table {
+  min-width: 480px;
+}
+
+.table td {
+  border: 6px solid blue;
+  background: linear-gradient(lime, green);
+  background: -webkit-linear-gradient(lime, green);
+  background: -moz-linear-gradient(lime, green);
+  background: -o-linear-gradient(lime, green);
+  background: -ms-linear-gradient(lime, green);
+  color: blue;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.table tbody tr:hover td, .table tbody tr.active td {
+  border: 6px solid #00CC00;
+  background: linear-gradient(skyblue, blue);
+  background: -webkit-linear-gradient(skyblue, blue);
+  background: -moz-linear-gradient(skyblue, blue);
+  background: -o-linear-gradient(skyblue, blue);
+  background: -ms-linear-gradient(skyblue, blue);
+  color: lime;
+  padding: 10px;
+  transition: 0.3s;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.table tbody tr.active td {
+  border-radius: 8px !important;
+}
+
+.table th {
+  border: 6px solid #00CC00;
+  color: lime;
+  padding: 10px;
+  font-weight: 900;
+  transition: 0.3s;
+  border-radius: 5px;
+  background: linear-gradient(blue, darkblue);
+  background: -webkit-linear-gradient(blue, darkblue);
+  background: -moz-linear-gradient(blue, darkblue);
+  background: -o-linear-gradient(blue, darkblue);
+  background: -ms-linear-gradient(blue, darkblue);
+}
+
+.table thead tr:hover th {
+  border: 6px solid blue;
+  background: linear-gradient(green, lime);
+  background: -webkit-linear-gradient(green, lime);
+  background: -moz-linear-gradient(green, lime);
+  background: -o-linear-gradient(green, lime);
+  background: -ms-linear-gradient(green, lime);
+  color: blue;
+  padding: 10px;
+  font-weight: 900;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+#message {
+  height: 0px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #CCC;
+  padding: 20px;
+  border-radius: 15px;
+  display: none;
+}
+
+@media screen and (max-width: 1150px) {
+  #message {
+    position: static;
+    display: block;
+    margin-top: 10px;
+  }
 }
 
 #contact h1 {
