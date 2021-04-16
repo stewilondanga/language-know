@@ -6,7 +6,7 @@ var navigate = (function() {
     $('.' + dataName).toggle();
   });
 })();
-/*
+
 $(document).ready(function() {
   $('.table thead tr').mouseover(function() {
     $('.table tbody tr').addClass('active');
