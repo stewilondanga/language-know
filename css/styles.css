@@ -113,7 +113,6 @@ body {
   min-width: 480px;
 }
 
-/*
 .table td {
   border: 6px solid blue;
   background: linear-gradient(lime, green);
@@ -127,6 +126,7 @@ body {
   transition: 0.3s;
 }
 
+/*
 .table tbody tr:hover td, .table tbody tr.active td {
   border: 6px solid #00CC00;
   background: linear-gradient(skyblue, blue);
