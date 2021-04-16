@@ -183,7 +183,6 @@ body {
   display: none;
 }
 
-/*
 @media screen and (max-width: 1150px) {
   #message {
     position: static;
@@ -192,6 +191,7 @@ body {
   }
 }
 
+/*
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
