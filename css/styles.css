@@ -140,11 +140,11 @@ body {
   cursor: pointer;
 }
 
-/*
 .table tbody tr.active td {
   border-radius: 8px !important;
 }
 
+/*
 .table th {
   border: 6px solid #00CC00;
   color: lime;
