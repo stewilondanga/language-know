@@ -126,7 +126,6 @@ body {
   transition: 0.3s;
 }
 
-/*
 .table tbody tr:hover td, .table tbody tr.active td {
   border: 6px solid #00CC00;
   background: linear-gradient(skyblue, blue);
@@ -141,6 +140,7 @@ body {
   cursor: pointer;
 }
 
+/*
 .table tbody tr.active td {
   border-radius: 8px !important;
 }
