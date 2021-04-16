@@ -109,11 +109,11 @@ body {
   overflow-x: auto;
 }
 
-/*
 .table {
   min-width: 480px;
 }
 
+/*
 .table td {
   border: 6px solid blue;
   background: linear-gradient(lime, green);
