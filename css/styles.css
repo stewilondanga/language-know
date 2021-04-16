@@ -1,3 +1,9 @@
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-top: -80px !important;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -105,12 +111,6 @@
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
-}
-
-body {
-  font-family: Calibri, Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
-  margin-top: -80px !important;
 }
 
 .table-wrapper {
