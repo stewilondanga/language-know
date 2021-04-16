@@ -144,7 +144,6 @@ body {
   border-radius: 8px !important;
 }
 
-/*
 .table th {
   border: 6px solid #00CC00;
   color: lime;
@@ -159,6 +158,7 @@ body {
   background: -ms-linear-gradient(blue, darkblue);
 }
 
+/*
 .table thead tr:hover th {
   border: 6px solid blue;
   background: linear-gradient(green, lime);
